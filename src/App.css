@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: #025159;
+  color: #d9cec5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +41,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.countdown.number {
+  font-size: 10em;
+}
+
+.countdown.metric {
+  font-size: 8em;
+  text-transform: capitalize;
+}
+
+/* Color Theme Swatches in Hex */
+.Graphic-Design-1-hex {
+  color: #025159;
+}
+.Graphic-Design-2-hex {
+  color: #93a603;
+}
+.Graphic-Design-3-hex {
+  color: #f2921d;
+}
+.Graphic-Design-4-hex {
+  color: #d9cec5;
+}
+.Graphic-Design-5-hex {
+  color: #d95204;
+}
+
+/* Color Theme Swatches in RGBA */
+.Graphic-Design-1-rgba {
+  color: rgba(1, 80, 89, 1);
+}
+.Graphic-Design-2-rgba {
+  color: rgba(146, 165, 3, 1);
+}
+.Graphic-Design-3-rgba {
+  color: rgba(242, 146, 29, 1);
+}
+.Graphic-Design-4-rgba {
+  color: rgba(216, 206, 197, 1);
+}
+.Graphic-Design-5-rgba {
+  color: rgba(216, 82, 4, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Graphic-Design-1-hsla {
+  color: hsla(185, 96, 17, 1);
+}
+.Graphic-Design-2-hsla {
+  color: hsla(67, 96, 33, 1);
+}
+.Graphic-Design-3-hsla {
+  color: hsla(33, 89, 53, 1);
+}
+.Graphic-Design-4-hsla {
+  color: hsla(28, 20, 81, 1);
+}
+.Graphic-Design-5-hsla {
+  color: hsla(22, 96, 43, 1);
 }
